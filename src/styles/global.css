@@ -1,0 +1,27 @@
+html {
+    background-color: #d3d3d3;
+}
+
+.main-heading {
+    max-width: 100vh;
+    padding: 1rem;
+    background-color: #9489f1;
+}
+
+.global-header {
+    max-width: 100vh;
+    padding: 1rem;
+    background-color: #9489f1;
+}
+
+.header-link-home {
+    color: black;
+}
+
+h1 {
+    color: black;
+}
+
+span {
+    color: black;
+}
