@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import ShareButtons from "../components/ShareButtons/sharebuttons.component"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -105,3 +106,13 @@ export const pageQuery = graphql`
     }
   }
 `
+export const query = graphql`
+
+query {
+   markdownRemark{
+     frontmatter {
+        title
+        tags
+     }
+     html
+}}`
